@@ -14,5 +14,5 @@ export const useInput = (initiaValue, validator) => {
   }
   return { value, onChange };
 }
-   // const maxLen = (value) => !value.includes("@");
-    // const name = useInput("Mr.", maxLen);
+// const maxLen = (e) => !e.includes("@");
+// const name = useInput("Mr.", maxLen);
